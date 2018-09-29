@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+body {
+    background-color: #f5f5f5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "left right";
+}
+
+.buttonpadding {
+    margin: 15px 15px;
+}
+
+.empty {
+    grid-area: empty;
+}
+
+.left {
+    overflow: auto;
+    grid-area: left;
+}
+
+.centercontent {
+    text-align: center;
+}
+
+.right {
+    overflow: hidden;
+    grid-area: right;
+    padding: 30px;
+}
+
+.iconbutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.accesslabels {
+    color: black;
+}
+
+.formfieldsmall {
+    size: "20" !important;
+}
+
+.standardpadding {
+    padding: 5px;
+}
+
+.postborder {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'Berkshire Swash', cursive;
+    margin: auto;
+    font-size: 30px;
+}
