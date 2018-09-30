@@ -8,9 +8,9 @@
     <div class="grid">
         <div class="left">
             <div class="centercontent">
-                <a href="/r/music"><img src="{{URL::asset('/icons/musicicon.svg')}}" class="iconbutton btn buttonpadding"></a>
-                <a href="/r/art"><img src="{{URL::asset('/icons/brushicon.svg')}}" class="iconbutton btn buttonpadding"></a>
-                <a href="/r/code"><img src="{{URL::asset('/icons/codeicon.svg')}}" class="iconbutton btn buttonpadding"></a>
+                <a href="/r/music"><img src="{{URL::asset('/iconspics/musicicon.svg')}}" class="iconbutton btn buttonpadding"></a>
+                <a href="/r/art"><img src="{{URL::asset('/iconspics/brushicon.svg')}}" class="iconbutton btn buttonpadding"></a>
+                <a href="/r/code"><img src="{{URL::asset('/iconspics/codeicon.svg')}}" class="iconbutton btn buttonpadding"></a>
             </div>
             @foreach($posts as $post)
             <div class="centercontent standardpadding postborder">

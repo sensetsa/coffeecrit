@@ -31,7 +31,7 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="navbar-nav mr-auto" style="padding-left: 100px">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{URL::asset('/icons/logo.svg')}}" width="100" height="100">
+                        <img src="{{URL::asset('/iconspics/logo.svg')}}" width="100" height="100">
                     </a>
                     <a class="navbar-brand logo" href="{{ url('/') }}">
                         {{ config('app.name', 'Laravel') }}
